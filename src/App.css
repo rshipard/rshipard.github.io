@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   display: grid;
+  width: 100vw;
   grid-template-columns: 1fr 2fr 5fr 2fr;
   grid-template-rows: min-content;
-  background-color: rgb(254, 230, 188);
+  /* background-color: rgb(254, 230, 188); */
   min-height: 100vh;
 }
