@@ -1,4 +1,3 @@
-import { Component } from "react";
 import './Contact.css'
 
 function Contact(props) {

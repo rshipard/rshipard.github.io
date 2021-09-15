@@ -1,4 +1,3 @@
-import { Component } from "react";
 import './AboutMe.css'
 
 function AboutMe(props) {

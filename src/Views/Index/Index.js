@@ -1,4 +1,3 @@
-import { Component } from "react";
 import './Index.css'
 
 function Index(props) {

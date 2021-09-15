@@ -1,4 +1,3 @@
-import { Component } from "react";
 import './Portfolio.css'
 
 function Portfolio(props) {

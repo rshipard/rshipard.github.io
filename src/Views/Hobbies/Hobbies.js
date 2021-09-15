@@ -1,4 +1,3 @@
-import { Component } from "react";
 import './Hobbies.css'
 
 function Hobbies(props) {
