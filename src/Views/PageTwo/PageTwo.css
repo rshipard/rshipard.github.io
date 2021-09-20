@@ -1,11 +1,11 @@
-.App {
+.PageTwo {
   text-align: center;
   display: grid;
   width: 100vw;
   grid-template-columns: 3fr 1fr 5fr 3fr;
   grid-template-rows: min-content;
   min-height: 100vh;
-  transition: ease-in-out 3s;
+  margin-top: 1200px;
   animation-name: fadein;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;

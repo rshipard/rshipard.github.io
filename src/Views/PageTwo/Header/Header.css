@@ -1,0 +1,9 @@
+.Header {
+    color: rgb(38, 38, 38);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    word-spacing: 0.5em;
+    grid-column: 3 ;
+    border-bottom: cornsilk 5px solid;
+    height: 15vh;
+}

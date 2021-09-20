@@ -25,10 +25,10 @@ function useWindowDimensions() {
 
 function checkScrollHeight() {
 
-  if (window.scrollY + window.innerHeight <= 1500) {
+  if (window.scrollY + window.innerHeight <= 1000) {
     console.log(0)
     return 0
-  } else if (window.scrollY + window.innerHeight > 1500) {
+  } else if (window.scrollY + window.innerHeight > 1000) {
     console.log(1)
     return 1
   }

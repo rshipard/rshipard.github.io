@@ -1,0 +1,9 @@
+.NavBarOne {
+  grid-column: 2;
+  margin-top: 2em;
+  height: min-content;
+  width: 7vw;
+  min-width: 100px;
+
+}
+
