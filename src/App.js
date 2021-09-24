@@ -1,7 +1,9 @@
 import './App.css';
 import PageOne from './Views/PageOne/PageOne'
-import PageTwo from './Views/PageTwo/PageTwo';
-import { useState, useEffect } from 'react';
+import PageTwo from './Views/PageTwo/PageTwo'
+import PageThree from './Views/PageThree/PageThree'
+import { useState, useEffect } from 'react'
+import FinalPage from './Views/Final/FinalPage'
 
 
 function App(props) {
@@ -12,6 +14,7 @@ function App(props) {
   useEffect(() => {
     window.addEventListener('scroll', function windowScrollHeight() {
       setScrollHeight(window.scrollY + window.innerHeight);
+      console.log(scrollHeight)
       // ComponentWillUnmount
       return () => {
         window.removeEventListener('scroll', windowScrollHeight);
@@ -20,79 +23,14 @@ function App(props) {
   }, []);
   return (
     <div className="App">
-      {scrollHeight < 1500 && <PageOne />}
-      {scrollHeight > 1400 && <PageTwo/>}
+      {/* {scrollHeight < 1829 && <PageOne />}
+      {scrollHeight > 1800 && <PageTwo/>}
+      {scrollHeight > 2353 && <PageThree/>}
+      {scrollHeight > 4000 && <FinalPage/>} */}
+      <FinalPage/>
     </div>
   );
 
-  // window.addEventListener('scroll', event => {
-  //   const app = document.querySelector('App')
-  //   if (checkScrollHeight() == 0) {
-  //     return (
-  //       <div className="App">
-  //         <Header />
-  //         <NavBar />
-  //         <Switch>
-  //           <Route
-  //             path="/about" 
-  //             component={AboutMe}
-  //           />
-  //           <Route
-  //             path="/portfolio"
-  //             component={Portfolio}
-  //           />
-  //           <Route
-  //             path="/hobbies"
-  //             component={Hobbies}
-  //           />
-  //           <Route
-  //             path="/contact"
-  //             component={Contact}
-  //           />
-  //           <Route
-  //             path="/"
-  //             component={LandingPage}
-  //           />
-  //         </Switch>
-  //       </div>
-  //     )
-  //   } else if (checkScrollHeight() == 1) {
-  //     const app = document.querySelector('App')
-  //     return (
-  //       React.Children.only({testExtraText})
-  //     )
-  //   }
-  // })
-
-  // return (
-  //   <div className="App">
-  //     <Header />
-  //     <NavBar />
-  //     <Switch>
-  //       <Route
-  //         path="/about" 
-  //         component={AboutMe}
-  //       />
-  //       <Route
-  //         path="/portfolio"
-  //         component={Portfolio}
-  //       />
-  //       <Route
-  //         path="/hobbies"
-  //         component={Hobbies}
-  //       />
-  //       <Route
-  //         path="/contact"
-  //         component={Contact}
-  //       />
-  //       <Route
-  //         path="/"
-  //         component={LandingPage}
-  //         // component={() => <LandingPage width={width} />}
-  //       />
-  //     </Switch>
-  //   </div>
-  // );
 }
 
 export default App;

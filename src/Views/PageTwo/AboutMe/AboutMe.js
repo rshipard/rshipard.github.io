@@ -2,8 +2,8 @@ import './AboutMe.css'
 
 function AboutMe(props) {
     return (
-        <div className="AboutMe">
-            <div className="Cool-Stuff">
+        <div className="AboutMeTwo">
+            <div className="Cool-stuff">
                 <h3>Cool Facts:</h3>
                 <p>I've had a variety of jobs and hobbies, all of which taught me a broad range of skills including:</p>
                 <ul className="cool-stuff-list">

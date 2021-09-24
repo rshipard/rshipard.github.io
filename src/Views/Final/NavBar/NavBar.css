@@ -1,0 +1,48 @@
+.NavBarFinal {
+  grid-column: 2;
+  margin-top: 10em;
+  background-color: cornsilk;
+  height: min-content;
+  width: 7vw;
+  min-width: 100px;
+  border-radius: 20px;
+  opacity: 0.6;
+  position: fixed;
+  animation: slide-in 2s forwards;
+  display: block;
+  filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+@keyframes slide-in {
+  0% {
+    left: -900px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 0.6;
+  }
+}
+
+.NavBarFinal .link {
+  display: block;
+  margin: 10px;
+  text-align: center;
+  color: black;
+  transition: 1s cubic-bezier(0.35, 0.94, 0.23, 0.81);
+}
+
+.NavBarFinal .link:hover {
+  transform: scale(130%);
+  transition: 0.2s;
+}
+
+.NavBar .link .icon .svg path {
+  fill: bisque;
+  stroke: 10;
+  stroke: black;
+}

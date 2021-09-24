@@ -1,0 +1,10 @@
+.LandingPageFinal {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    margin: 20px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 20px;
+    filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
+}

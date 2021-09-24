@@ -1,9 +1,9 @@
-.AboutMe {
+.AboutMeTwo {
     grid-column: 3;
     grid-row: 2;
     text-align: left;
 }
 
-.cool-stuff-list {
-    
+.AboutMeTwo h3{
+    text-align: center;
 }

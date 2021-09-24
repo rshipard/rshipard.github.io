@@ -4,20 +4,7 @@
   width: 100vw;
   grid-template-columns: 3fr 1fr 5fr 3fr;
   grid-template-rows: min-content;
-  min-height: 100vh;
-  margin-top: 1200px;
-  animation-name: fadein;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadein {
-  from {
-      opacity: 0;
-  }
-
-  to {
-      opacity: 1;
-  }
+  /* min-height: 100vh; */
+  padding-top: 1829px;
+  background-color: rgb(171, 191, 218);
 }

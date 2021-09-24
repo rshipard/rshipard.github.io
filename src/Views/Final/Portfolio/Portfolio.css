@@ -1,0 +1,37 @@
+.PortfolioFinal {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: left;
+    margin: 20px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 20px;
+    filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
+}
+
+.PortfolioFinal h3 {
+    text-align: center;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+div.project {
+    margin: 30px;
+}
+
+img {
+    opacity: 1;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    float: left;
+    border-radius: 20%;
+    transition: 1s;
+    filter: drop-shadow(-5px 5px 4px rgb(69, 122, 150));
+}
+
+img:hover {
+    transform: scale(300%);
+}

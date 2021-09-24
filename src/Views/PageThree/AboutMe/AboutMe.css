@@ -1,0 +1,9 @@
+.AboutMeThree {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: left;
+}
+
+.AboutMeThree h3{
+    text-align: center;
+}

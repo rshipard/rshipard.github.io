@@ -1,8 +1,7 @@
-.NavBar {
+.NavBarTwo {
   grid-column: 2;
   margin-top: 2em;
   background-color: cornsilk;
-
   height: min-content;
   width: 7vw;
   min-width: 100px;
@@ -10,17 +9,13 @@
   opacity: 0.6;
 }
 
-.link {
+.NavBarThree .link {
   margin: 5px;
   text-align: center;
   color: black;
-  transition: 1s cubic-bezier(0.35, 0.94, 0.23, 0.81);
+
 }
 
-a {
+.NavBarThree a {
   text-decoration: none;
-}
-.link:hover {
-  transform: scale(130%);
-  transition: 0.2s;
 }

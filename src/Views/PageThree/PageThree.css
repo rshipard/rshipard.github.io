@@ -1,0 +1,29 @@
+.PageThree {
+  text-align: center;
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 3fr 1fr 5fr 3fr;
+  grid-template-rows: min-content;
+  min-height: 100vh;
+  padding-top: 2000px;
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  background-color: rgb(171, 191, 218);
+  background-image: url("https://images.pixexid.com/wb9e1c1e-plose-winter-mountain-view.jpeg");
+  background-repeat: repeat-x;
+  background-position:0 100%;
+  background-size: 2000px;
+  animation: 100s para infinite linear reverse;
+}
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
+}

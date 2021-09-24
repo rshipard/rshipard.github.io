@@ -4,7 +4,7 @@ import './NavBar.css'
 function NavBar(props) {
 
     return (
-        <div className="NavBar">
+        <div className="NavBarTwo">
             <Link to="/" className="link">
                 <div className="link">Home</div>
             </Link>

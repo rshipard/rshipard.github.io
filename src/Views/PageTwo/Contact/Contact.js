@@ -2,7 +2,7 @@ import './Contact.css'
 
 function Contact(props) {
     return (
-        <div className="contact-me">
+        <div className="ContactTwo">
             <h3>Contact Me on:</h3>
             <ul className="hobbies-list">
                 <li>Connect with me on 
