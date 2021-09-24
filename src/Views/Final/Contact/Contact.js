@@ -12,7 +12,7 @@ function Contact(props) {
                     <a href="tel:0423626618"> 0423 626 618</a>
                 </li>
                 <li>Email: 
-                    <a href="mailto:rshipard@gmail.com"> rshipard@gmail.com</a>
+                    <a href="mailto:rshipard@gmail.com"> rshipard @ gmail dot com</a>
                 </li>
             </ul>
         </div>

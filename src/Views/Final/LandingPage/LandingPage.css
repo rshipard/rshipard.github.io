@@ -8,3 +8,28 @@
     padding: 20px;
     filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
 }
+
+.LandingPageFinal p {
+    font-size: 20px;
+}
+
+.LandingPageFinal path {
+    stroke-dasharray: 3205;
+    stroke-dashoffset: 3205;
+    animation: draw 7s ease-in forwards;
+}
+
+@keyframes draw {
+    0% {
+        stroke-dashoffset: 3205;
+        fill-opacity: 0;
+    }
+    90% {
+        stroke-dashoffset: 0;
+        fill-opacity: 0.2;
+    }
+    100%{
+        stroke-dashoffset: 0;
+        fill-opacity: 0.8;
+    }
+}

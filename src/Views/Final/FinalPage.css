@@ -2,7 +2,7 @@
   text-align: center;
   display: grid;
   width: 100vw;
-  grid-template-columns: 3fr 1fr 5fr 3fr;
+  grid-template-columns: 1fr 2fr 6fr 2fr;
   grid-template-rows: min-content;
   min-height: 100vh;
   filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
@@ -22,7 +22,7 @@
   background: linear-gradient(35deg, #0349aa, #70b4f7, #c224c3);
   background-size: 600% 600%;
 
-  animation: AnimationName 27s ease infinite;
+  animation: AnimationName 15s ease infinite;
 }
 
 @keyframes AnimationName {

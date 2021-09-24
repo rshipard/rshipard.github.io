@@ -13,6 +13,18 @@
     text-align: center;
 }
 
-.no-bullets {
-    list-style: none;
+.float-left {
+    border-radius: 5%;
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+.HobbiesFinal .hobby {
+    display: block;
+    margin-top: 60px;
+}
+
+.HobbiesFinal .video {
+    border-radius: 5%;
 }

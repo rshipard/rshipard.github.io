@@ -13,6 +13,17 @@
     text-align: center;
 }
 
+.coding-skills {
+    display: flex;
+    align-items: center;
+}
+
+.coding-skills p{
+    display: inline-block;
+    margin: 0 auto;
+}
+
 .no-bullets {
     list-style: none;
+    margin-left: 0;
 }

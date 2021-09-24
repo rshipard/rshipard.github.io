@@ -21,7 +21,7 @@ div.project {
     margin: 30px;
 }
 
-img {
+div.project img {
     opacity: 1;
     width: 40%;
     height: auto;
@@ -32,6 +32,6 @@ img {
     filter: drop-shadow(-5px 5px 4px rgb(69, 122, 150));
 }
 
-img:hover {
+div.project img:hover {
     transform: scale(300%);
 }

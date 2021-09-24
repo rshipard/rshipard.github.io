@@ -37,12 +37,34 @@
 }
 
 .NavBarFinal .link:hover {
-  transform: scale(130%);
-  transition: 0.2s;
+  transform: scale(150%) rotate(10deg);
+  transition: 0.15s;
 }
 
-.NavBar .link .icon .svg path {
-  fill: bisque;
-  stroke: 10;
-  stroke: black;
+.NavBarFinal .contact-link svg {
+  transform: rotate(130deg) scale(150%);
+}
+
+.NavBarFinal .home-link svg:hover {
+  transform: rotate(90deg);
+  transition: 1s;
+}
+
+.NavBarFinal .about-link svg:hover {
+  transform: rotate(-30deg);
+  transition: 1s;
+}
+
+.NavBarFinal .portfolio-link svg:hover {
+  transform: rotate(-30deg);
+  transition: 1s;
+}
+
+.NavBarFinal .hobbies-link svg:hover {
+  transform: rotate(60deg) ;
+  transition: 1s;
+}
+.NavBarFinal .contact-link svg:hover {
+  transition: 1s;
+  transform: scale(150%);
 }
