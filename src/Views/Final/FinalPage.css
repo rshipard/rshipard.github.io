@@ -19,7 +19,7 @@
 }
 
 .FinalPage {
-  background: linear-gradient(35deg, #0349aa, #70b4f7, #c224c3);
+  background: linear-gradient(35deg, #005ad7, #70b4f7, #010ea0);
   background-size: 600% 600%;
   animation: AnimationName 15s ease infinite;
 }
