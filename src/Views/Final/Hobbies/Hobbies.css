@@ -13,6 +13,10 @@
     text-align: center;
 }
 
+.HobbiesFinal .hobby{
+    display: block;
+}
+
 .float-left {
     border-radius: 5%;
     width: 30%;

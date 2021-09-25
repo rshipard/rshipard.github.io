@@ -9,6 +9,7 @@ function AboutMe(props) {
                 <p>The short list is:</p>
                 <div className="coding-skills">
                     <p>HTML</p>
+                    
                     <p>CSS</p>
                     <p>Javascript</p>
                     <p>SQL</p>
