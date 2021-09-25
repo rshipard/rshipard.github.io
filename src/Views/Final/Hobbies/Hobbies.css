@@ -39,3 +39,8 @@
 .HobbiesFinal .video {
     border-radius: 5%;
 }
+
+.HobbiesFinal .boardgame-photo:hover {
+    transition: ease-in-out 1s;
+    transform: scale(300%) translateX(-30%);
+}
