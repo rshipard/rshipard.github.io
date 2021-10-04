@@ -25,7 +25,11 @@ function Hobbies(props) {
             <div className="hobby">
                 <h4>Dance</h4>
                 <p>In the last 6 years I've discovered the world of Ballroom and Latin dance. Due to little things like a pandemic I haven't been able to do it for the last 2 years. I can't wait for the post COVID world where I get to go back out and move across the dancefloor!</p>
-                <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/BFaA8Mm1syk?start=18" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <figure>
+                    <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/BFaA8Mm1syk?start=18" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <figcaption>Disclaimer - this is <i>not</i> me, but is from the same dance studio!</figcaption>
+                </figure>
+                
             </div>
         </div>
     )

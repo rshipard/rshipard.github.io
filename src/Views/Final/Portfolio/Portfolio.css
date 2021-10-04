@@ -24,11 +24,11 @@ div.project img {
     margin: 20px;
     float: left;
     border-radius: 20%;
-    transition: 1s;
-    filter: drop-shadow(-5px 5px 4px rgb(69, 122, 150));
+    transition: 0.8s ease-in-out;
+    filter: drop-shadow(10px 10px 4px rgb(69, 122, 150));
 }
 
 div.project img:hover {
-    transform: scale(300%);
+    transform: scale(200%) translateX(30%) translateY(20%);
 }
 

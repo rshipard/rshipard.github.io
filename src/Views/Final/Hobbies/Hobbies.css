@@ -48,3 +48,7 @@
     transition: ease-in-out 1s;
     transform: scale(300%) translateX(-30%);
 }
+
+.HobbiesFinal figure {
+    text-align: center;
+}

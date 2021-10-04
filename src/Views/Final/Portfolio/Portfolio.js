@@ -17,8 +17,8 @@ function Portfolio(props) {
                         </a>
                         <br />
                         <h4>Lessons learnt:</h4>
-                        <p>My first attempt at DOM manipulation. During which I learn how valuable event listeners are and possibly more importantly when to disable them. I am sure there are 100 ways this could have been done, but I was particularly happy with how I analysed win conditions.</p>
-                        <p>This taught me a great deal about simply concepts that can be surprisingly hard to grasp, like the myriad ways people can and will click on something out of order and how you need to allow for that while not necessarily adjusting your code, but possibly adjusting HOW you allow people to interact with the page.</p>
+                        <p>My first attempt at DOM manipulation. During which I learn how valuable event listeners are and possibly more importantly when to disable them. I am sure there are 100 ways this could have been done, but I was particularly happy with how I analysed the win conditions.</p>
+                        <p>This taught me a great deal about simply concepts that can be surprisingly hard to grasp, like the myriad ways people can, and will, click on something out of order. How you need to allow for that while not necessarily adjusting your code, but possibly adjusting HOW you allow people to interact with the page. Not letting someone interact with you page (if it's outside what you intent) is just as important as making your page interactive in the first place.</p>
                         <h4>What I'd like to improve</h4>
                         <ul>
                             <li>The page looks flat and the colour scheme is a bit to dark</li>

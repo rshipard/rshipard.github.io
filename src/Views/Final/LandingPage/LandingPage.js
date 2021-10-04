@@ -1,5 +1,4 @@
 import './LandingPage.css'
-import downArrow from '../../../images/landing_page/baseline_arrow_downward_black_36dp.png'
 
 function LandingPage(props) {
 
