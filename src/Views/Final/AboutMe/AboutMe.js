@@ -15,7 +15,7 @@ function AboutMe(props) {
                     <p>SQL</p>
                     <p>Ruby</p>
                     <p>React</p>
-                    <p>PostreSQL</p>
+                    <p>PostgreSQL</p>
                     <p>CLI commands</p>
                     <p>RegEx</p>
                     <p>Jest Testing</p>
