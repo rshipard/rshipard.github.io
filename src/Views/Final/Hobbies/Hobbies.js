@@ -20,8 +20,8 @@ function Hobbies(props) {
                 <h4>Board Games</h4>
                 <img className="float-right boardgame-photo" src={boardGamePhoto} alt="" />
                 <p>Ever since I was really young I played games. First Checker with my grandfather and chess with my Dad.</p>
-                <p>When I was in my mid twenties I discovered so called "hobby" boardgames which turned first into a shelf, then a whole bookshelf, then a gaming club, and now the "shame cupboard".  We don't speak about the shame cupboard.</p>
-                <p>Yes you insert a mental note for the GoT shame meme if you like.</p>
+                <p>When I was in my mid twenties I discovered so called "hobby" boardgames which turned first into a shelf, then a whole bookshelf, then a gaming club, and now the "shame cupboard".</p>
+                <p>We don't speak about the shame cupboard.</p>
             </div>
             <div className="hobby">
                 <h4>Dance</h4>
