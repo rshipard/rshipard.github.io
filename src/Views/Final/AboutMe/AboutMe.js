@@ -5,11 +5,10 @@ function AboutMe(props) {
         <div className="AboutMeFinal">
             <div className="coding">
                 <h3>Coding Skills</h3>
-                <p>As a graduate of the General Assembly Software Engineering program I have a broad range of full stack skillsets.</p>
+                <p>As a graduate of the General Assembly Software Engineering program I have a broad range of full-stack skillsets.</p>
                 <p>The short list is:</p>
                 <div className="coding-skills">
                     <p>HTML</p>
-                    
                     <p>CSS</p>
                     <p>Javascript</p>
                     <p>SQL</p>
@@ -33,8 +32,8 @@ function AboutMe(props) {
             </div>
             <div className="background">
                 <h3>Background</h3>
-                <p>After 10 years withing the Automotive industry as a Parts Interpreter, I'm looking for a new challenge and coding seemed the perfect match of what I love and how I approach problems.</p>
-                <p>Being a software Engineer is exciting as it allows me to find solutions to problems every single day. I love looking for creative solutions and combined with the methodical, systemic approach the all coding requires really lets me enjoy myself solving the problem.</p>
+                <p>After 10 years within the Automotive industry as a Parts Interpreter, I'm looking for a new challenge and coding seemed the perfect match of what I love and how I approach problems.</p>
+                <p>Being a Software Engineer is exciting as it allows me to find solutions to problems every single day. I love looking for creative solutions and combined with the methodical, systemic approach that all coding requires, really lets me enjoy solving the problem.</p>
             </div>
             <div className="skills">
                 <h3>Life Skills</h3>
