@@ -20,7 +20,6 @@
 
 .FinalPage {
   background: linear-gradient(35deg, #005ad7, #70b4f7, #010ea0);
-  background-size: 600% 600%;
   animation: AnimationName 15s ease infinite;
   line-height: 1.3;
 }

@@ -13,15 +13,9 @@
     text-align: center;
 }
 
-.coding-skills {
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-}
-
-.coding-skills p{
-    display: inline-block;
-    margin: 0 auto;
+.coding-skills ul {
+    columns: 2;
+    align-content: center;
 }
 
 .no-bullets {

@@ -9,6 +9,10 @@
     filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
 }
 
+.LandingPageFinal svg {
+    width: 90%;
+}
+
 .LandingPageFinal p {
     font-size: 20px;
 }

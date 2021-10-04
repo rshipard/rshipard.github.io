@@ -5,30 +5,28 @@ function AboutMe(props) {
         <div className="AboutMeFinal">
             <div className="coding">
                 <h3>Coding Skills</h3>
-                <p>As a graduate of the General Assembly Software Engineering program I have a broad range of full-stack skillsets.</p>
-                <p>The short list is:</p>
+                <p>As a graduate of the General Assembly Software Engineering program I have a broad range of full-stack skills including:</p>
                 <div className="coding-skills">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>Javascript</p>
-                    <p>SQL</p>
-                    <p>Ruby</p>
-                    <p>React</p>
-                    <p>PostgreSQL</p>
-                    <p>CLI commands</p>
-                    <p>RegEx</p>
-                    <p>Jest Testing</p>
-                    <p>Git/Github</p>
+                    <ul className="no-bullets horizontal-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>SQL</li>
+                        <li>Ruby</li>
+                        <li>React</li>
+                        <li>PostgreSQL</li>
+                        <li>RegEx</li>
+                        <li>CLI Commands</li>
+                        <li>Jest Testing</li>
+                        <li>Git/Github</li>
+                        <li>RESTful routes</li>
+                        <li>MVC architecture</li>
+                        <li>API's</li>
+                        <li>OOP</li>
+                        <li>TDD</li>
+                        <li>DOM Manipulation</li>
+                    </ul>
                 </div>
-                <p>Based on or using:</p>
-                <ul className="coding-related-skills">
-                    <li>RESTful routes</li>
-                    <li>MVC architecture</li>
-                    <li>API's</li>
-                    <li>OOP</li>
-                    <li>TDD</li>
-                    <li>DOM Manipulation</li>
-                </ul>
             </div>
             <div className="background">
                 <h3>Background</h3>
