@@ -16,7 +16,7 @@
 .LandingPageFinal path {
     stroke-dasharray: 3205;
     stroke-dashoffset: 3205;
-    animation: draw 7s ease-in forwards;
+    animation: draw 4s ease-in forwards;
 }
 
 @keyframes draw {
@@ -24,12 +24,14 @@
         stroke-dashoffset: 3205;
         fill-opacity: 0;
     }
-    90% {
+    60% {
         stroke-dashoffset: 0;
         fill-opacity: 0.2;
     }
+    90% {
+        fill-opacity: 0.6;
+    }
     100%{
-        stroke-dashoffset: 0;
-        fill-opacity: 0.8;
+        fill-opacity: 1.0;
     }
 }

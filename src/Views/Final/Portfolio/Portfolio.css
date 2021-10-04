@@ -9,10 +9,6 @@
     filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
 }
 
-.PortfolioFinal h3 {
-    text-align: center;
-}
-
 .no-bullets {
     list-style: none;
 }
@@ -25,7 +21,7 @@ div.project img {
     opacity: 1;
     width: 30%;
     height: auto;
-    padding: 10px;
+    margin: 20px;
     float: left;
     border-radius: 20%;
     transition: 1s;
@@ -35,3 +31,4 @@ div.project img {
 div.project img:hover {
     transform: scale(300%);
 }
+

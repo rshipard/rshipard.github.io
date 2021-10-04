@@ -10,7 +10,7 @@ function LandingPage(props) {
                 width="10.0417in" height="3.95833in"
                 viewBox="0 0 723 285">
                 <path id="Selection" className="path"
-                    fill="black" stroke="black" stroke-width="1"
+                    fill="black" stroke="grey" stroke-width="1"
                     d="
            M 432.00,46.00
            C 432.00,46.00 391.00,46.00 391.00,46.00
