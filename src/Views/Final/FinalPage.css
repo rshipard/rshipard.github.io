@@ -21,7 +21,7 @@
 .FinalPage {
   background: linear-gradient(35deg, #005ad7, #70b4f7, #010ea0);
   animation: AnimationName 15s ease infinite;
-  line-height: 1.3;
+  /* line-height: 1.3; */
 }
 
 @keyframes AnimationName {

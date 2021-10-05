@@ -1,15 +1,21 @@
 .HeaderFinal {
-    color: rgb(38, 38, 38);
-    font-weight: 700;
-    letter-spacing: 0.5em;
-    word-spacing: 0.5em;
-    grid-column: 3 ;
-    height: 15vh;
-    padding-bottom: 20px;
-    background-color: cornsilk;
-    opacity: 0.6;
-    border-radius: 10px;
-    margin: 10px;
-    overflow: hidden;
-    filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
+  color: rgb(38, 38, 38);
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  word-spacing: 0.5em;
+  grid-column: 3;
+  height: 85%;
+  background-color: cornsilk;
+  opacity: 0.6;
+  border-radius: 10px;
+  margin: 10px;
+  filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
+}
+
+.HeaderFinal .main {
+  height: 30%;
+}
+
+.HeaderFinal .subtitle {
+  height: 30%;
 }
