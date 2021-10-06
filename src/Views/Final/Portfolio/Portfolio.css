@@ -9,6 +9,11 @@
     filter: drop-shadow(15px 15px 4px rgb(6, 72, 108));
 }
 
+.PortfolioFinal .content {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .PortfolioFinal h3 {
     text-align: center;
 }

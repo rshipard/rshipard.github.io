@@ -13,8 +13,9 @@
     text-align: center;
 }
 
-.HobbiesFinal .hobby{
-    display: block;
+.HobbiesFinal .content {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .float-left {
