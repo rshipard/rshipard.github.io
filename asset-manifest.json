@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b557670.chunk.css",
-    "main.js": "/static/js/main.1bbc119b.chunk.js",
-    "main.js.map": "/static/js/main.1bbc119b.chunk.js.map",
+    "main.css": "/static/css/main.b1053b4a.chunk.css",
+    "main.js": "/static/js/main.73f12ec2.chunk.js",
+    "main.js.map": "/static/js/main.73f12ec2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8164778.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8164778.js.map",
     "static/js/2.0fb4e6b3.chunk.js": "/static/js/2.0fb4e6b3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0de7ff8b.chunk.js": "/static/js/3.0de7ff8b.chunk.js",
     "static/js/3.0de7ff8b.chunk.js.map": "/static/js/3.0de7ff8b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3b557670.chunk.css.map": "/static/css/main.3b557670.chunk.css.map",
+    "static/css/main.b1053b4a.chunk.css.map": "/static/css/main.b1053b4a.chunk.css.map",
     "static/js/2.0fb4e6b3.chunk.js.LICENSE.txt": "/static/js/2.0fb4e6b3.chunk.js.LICENSE.txt",
     "static/media/board_game.8c28fed8.jpeg": "/static/media/board_game.8c28fed8.jpeg",
     "static/media/diy_genie.4325be2a.png": "/static/media/diy_genie.4325be2a.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.c8164778.js",
     "static/js/2.0fb4e6b3.chunk.js",
-    "static/css/main.3b557670.chunk.css",
-    "static/js/main.1bbc119b.chunk.js"
+    "static/css/main.b1053b4a.chunk.css",
+    "static/js/main.73f12ec2.chunk.js"
   ]
 }
